@@ -147,6 +147,7 @@ h1 {
   margin: 20px 150px 20px 150px;
   padding-top: 3px;
   padding-bottom: 3px;
+  color: white;
 }
 
 .boxp{
@@ -178,7 +179,7 @@ h1 {
 }
 
 .referencep{
-  border: 2px solid white;
+  border: 1px solid white;
   font-family: "Times New Roman", Times, serif;
   margin: 20px 600px 20px 600px;
 }
@@ -212,10 +213,66 @@ p{
 }
 
 ul li a{
-  text-decoration: none;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .ulp{
   color: white;
+}
+
+.button {
+  display: square;
+  width: 200px;
+  height: 70px;
+  border: 3px solid white;
+  background-color: gold;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#pic{
+  width: 30%;
+  height: 30%;
+  border: 6px dotted white;
+}
+
+#picture{
+  width: 30%;
+  height: 30%;
+}
+
+.button1{
+  display: square;
+  width: 200px;
+  height: 70px;
+  border: 3px solid white;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+}
+
+.button2{
+  display: square;
+  width: 200px;
+  height: 70px;
+  border: 3px solid blue;
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.form {
+  display: block;
+  font-style: italic;
+  text-align: center;
+  background-color: dodgerblue;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px 150px 20px 150px;
+  padding-top: 3px;
+  padding-bottom: 6px;
+  padding-left: 40px;
 }
